@@ -1,0 +1,27 @@
+.row_2b .item_01:hover{
+    background: #4C5BD4;
+}
+.row_2b .item_02:hover{
+    background: #68BB59;
+}
+.row_2b .item_03:hover{
+    background: #EB5757;
+}
+.row_2b .item_01:hover .icon_01{
+    background: url(../img/icon_handling2.png) no-repeat;
+    background-position: center;
+}
+.row_2b .item_02:hover .icon_02{
+    background: url(../img/completed2.png) no-repeat;
+    background-position: center;
+}
+.row_2b .item_03:hover .icon_03{
+    background: url(../img/cancelled2.png) no-repeat;
+    background-position: center;
+}
+.row_2b .item_01:hover .content h2, .row_2b .item_02:hover .content h2, .row_2b .item_03:hover .content h2{
+    color: #ffffff;
+}
+.row_2b .item_01:hover .content span, .row_2b .item_02:hover .content span, .row_2b .item_03:hover .content span{
+    color: #ffffff;
+}

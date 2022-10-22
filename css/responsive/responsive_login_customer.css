@@ -1,0 +1,246 @@
+@media screen and (min-width: 1366px) and (max-width: 1519px) {
+    .taskbar {
+        padding: 0% 6%;
+    }
+    .cvp {
+        width: 100%;
+        margin: 4% 6% 1% 6%;
+    }
+    .banner {
+        padding: 1% 6% 1% 6%;
+    }
+    .form-group .show-verify {
+        top: 8px;
+        right: 15px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+    .taskbar {
+        padding: 0% 5.5%;
+    }
+    .cvp {
+        width: 100%;
+        margin: 4% 5.5% 1% 5.5%;
+    }
+    .banner {
+        padding: 1% 5.5% 1% 5.5%;
+    }
+    .ban_text_1 .gg_or_facebook .google {
+        padding: 1% 3%;
+    }
+    .ban_text_1 .gg_or_facebook .facebook {
+        padding: 1% 3%;
+    }
+    .form-group .show-verify {
+        top: 8px;
+        right: 10px;
+    }
+    .bg-register .sub-title p,
+    .bg-register .title_bg .orange,
+    .bg-register .title_bg .red {
+        font-size: 20px;
+        line-height: 22px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .taskbar {
+        padding: 0% 11.8%;
+    }
+    .cvp {
+        width: 100%;
+        margin: 4% 11.8% 1% 11.8%;
+    }
+    .banner {
+        padding: 1% 11.8% 1% 11.8%;
+    }
+    .ban_text_1 .gg_or_facebook .google {
+        padding: 1% 8%;
+    }
+    .ban_text_1 .gg_or_facebook .facebook {
+        padding: 1% 8%;
+    }
+    .form-group .show-verify {
+        top: 11px;
+        right: 10px;
+    }
+    .bg-register {
+        display: none;
+    }
+    .banner .ban_text {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .taskbar {
+        padding: 0% 3.8%;
+    }
+    .cvp {
+        width: 100%;
+        margin: 10% 3.8% 7% 3.8%;
+    }
+    .banner {
+        padding: 1% 3.8% 1% 3.8%;
+    }
+    .ban_text_1 .gg_or_facebook .google {
+        padding: 1% 19%;
+    }
+    .ban_text_1 .gg_or_facebook .facebook {
+        padding: 1% 19%;
+    }
+    .form-group .show-verify {
+        top: 8px;
+        right: 10px;
+    }
+    .bg-register {
+        display: none;
+    }
+    .banner .ban_text {
+        width: 100%;
+    }
+    .ban_text_1 .header_ban_text-1 .name {
+        font-size: 30px;
+        line-height: 26px;
+    }
+    .ban_text_1 .gg_or_facebook .email .title_email p,
+    .ban_text_1 .header_ban_text-1 .sub_name {
+        font-size: 14px;
+        line-height: 149%;
+    }
+    .ban_text_1 .gg_or_facebook .google .title_google,
+    .ban_text_1 .gg_or_facebook .facebook .title_facebook {
+        display: none;
+    }
+    #icon_error_fullname>img,
+    #icon_error_password>img,
+    #icon_error_re_password>img,
+    #icon_error_phone>img,
+    #icon_error_email>img {
+        margin-top: 7px;
+    }
+    .img-capcha>img {
+        width: 133px;
+        height: 32px;
+    }
+     ::-webkit-input-placeholder {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 149%;
+        /* identical to box height, or 21px */
+        letter-spacing: 0.25px;
+        color: #C4C4C4;
+    }
+    .__register p,
+    .__register a,
+    .ban_text_1 .note-login .forgot-password a,
+    .ban_text_1 .note-login .miss-password label,
+    .ban_text_1 .form-group label {
+        font-size: 14px;
+        line-height: 149%;
+    }
+    .relative>img {
+        width: 20px;
+    }
+    img#img_eyes,
+    img#img_eyes_repass {
+        top: 25%;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 479px) {
+    .taskbar {
+        padding: 0% 3.8%;
+    }
+    .cvp {
+        width: 100%;
+        margin: 10% 3.8% 7% 3.8%;
+    }
+    .banner {
+        padding: 1% 3.8% 1% 3.8%;
+    }
+    .ban_text_1 .gg_or_facebook .google {
+        padding: 1% 19%;
+    }
+    .ban_text_1 .gg_or_facebook .facebook {
+        padding: 1% 19%;
+    }
+    .ban_text_1 .gg_or_facebook .email .title_email p {
+        padding: 0% 5%;
+    }
+    .ban_text_1 .header_ban_text-1 .name {
+        font-size: 30px;
+        line-height: 26px;
+    }
+    .form-group .show-verify {
+        top: 8px;
+        right: 10px;
+    }
+    .bg-register {
+        display: none;
+    }
+    .banner .ban_text {
+        width: 100%;
+    }
+    .ban_text_1 .gg_or_facebook .google .title_google,
+    .ban_text_1 .gg_or_facebook .facebook .title_facebook {
+        display: none;
+    }
+    #icon_error_fullname>img,
+    #icon_error_password>img,
+    #icon_error_re_password>img,
+    #icon_error_phone>img,
+    #icon_error_email>img {
+        margin-top: 7px;
+    }
+    .ban_text_1 .header_ban_text-1 .sub_name {
+        font-size: 14px;
+        line-height: 149%;
+    }
+    .error_message {
+        font-size: 12px;
+        line-height: 149%;
+    }
+    .ban_text_1 .form-group label {
+        font-size: 14px;
+        line-height: 149%;
+    }
+    .img-capcha>img {
+        width: 133px;
+        height: 32px;
+    }
+    .__register p,
+    .__register a,
+    .ban_text_1 .note-login .forgot-password a,
+    .ban_text_1 .note-login .miss-password label {
+        font-size: 14px;
+        line-height: 149%;
+    }
+    .form-group .show-verify {
+        width: 19px;
+    }
+     ::-webkit-input-placeholder {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 149%;
+        /* identical to box height, or 21px */
+        letter-spacing: 0.25px;
+        color: #C4C4C4;
+    }
+    .__register p,
+    .__register a,
+    .ban_text_1 .note-login .forgot-password a,
+    .ban_text_1 .note-login .miss-password label,
+    .ban_text_1 .form-group label {
+        font-size: 14px;
+        line-height: 149%;
+    }
+    .relative>img {
+        width: 19px;
+    }
+    img#img_eyes,
+    img#img_eyes_repass {
+        top: 25%;
+    }
+}

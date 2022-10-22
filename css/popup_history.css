@@ -1,0 +1,424 @@
+.popup {
+    display: none;
+    position: fixed;
+    padding: 10% 24%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+.popup_cancel {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+}
+.popup_cancel .title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.popup_cancel .title h2{
+    font-weight: 500;
+    font-size: 20px;
+    color: #2F2F2F;
+}
+.close-btn {
+    color: #2E2E2E;
+    font-size: 25px;
+    font-weight: 700;
+}
+.popup_cancel .content {
+    display: flex;
+    justify-content: space-between;
+}
+.popup_cancel .content .fet_01, .popup_cancel .content .fet_02{
+    width: 49%;
+}
+.popup_cancel .content .fet_01 .map iframe{
+    height: 200px;
+    margin-bottom: 15px;
+}
+.popup_cancel .content .fet_01 .dan_duong .add_dd{
+    display: flex;
+    margin-bottom: 11px;
+}
+.popup_cancel .content .fet_01 .dan_duong .add_dd .icon_dd {
+    width: 10%;
+    background: url(../img/dan_duong.png) no-repeat;
+    background-position: center 8%;
+}
+.popup_cancel .content .fet_01 .dan_duong .add_dd .ct_dd {
+    width: 90%;
+}
+.popup_cancel .content .fet_01 .dan_duong .add_dd .ct_dd h2{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2F2F2F;
+}
+.popup_cancel .content .fet_01 .dan_duong .add_dd .ct_dd .add_01 {
+    margin-bottom: 7%;
+}
+.popup_cancel .content .fet_01 .dan_duong .add_dd .ct_dd span {
+    font-size: 12px;
+    background: url(../img/add_icon.png) no-repeat;
+    padding-left: 6%;
+    background-position: left;
+    background-size: 5%;
+}
+.popup_cancel .content .fet_01 .dan_duong .add_dd .ct_dd h3 {
+    font-size: 12px;
+    line-height: 14px;
+    color: #4C5BD4;
+}
+.popup_cancel .content .fet_01 .dan_duong .khoang_cach span{
+    font-size: 14px;
+}
+ .popup_cancel .content .fet_02 h2{
+    font-weight: 500;
+    font-size: 16px;
+}
+ .popup_cancel .content .fet_02 .mon_01 {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.5px solid #E5E5E5;
+    padding: 1% 0%;
+}
+.popup_cancel .content .fet_02 .mon_01 .stt {
+    background: #4C5BD4;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup_cancel .content .fet_02 .mon_01 .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup_cancel .content .fet_02 .bill{
+    display: flex;
+    margin-top: 6px;
+    border-bottom: 1px solid #E5E5E5;
+    margin-bottom: 6px;
+}
+.popup_cancel .content .fet_02 .bill .tit_bill, .popup_cancel .content .fet_02 .bill .gia_bill{
+    width: 23%;
+}
+.popup_cancel .content .fet_02 .bill .tit_bill{
+    text-align: left;
+}
+.popup_cancel .content .fet_02 .bill .gia_bill {
+    width: 20%;
+    margin-left: 56%;
+    text-align: right;
+}
+.popup_cancel .content .fet_02 .bill .gia_bill span{
+    font-weight: 500;
+    font-size: 14px;
+}
+.popup_cancel .content .fet_02 .bill .tit_bill span, .popup_cancel .content .fet_02 .bill .gia_bill span{
+    font-size: 14px;
+    line-height: 35px;
+}
+.popup_cancel .content .fet_02 .total_bill{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.popup_cancel .content .fet_02 .total_bill span{
+    font-size: 14px;
+}
+.popup_cancel .content .fet_02 .total_bill a{
+    font-weight: 700;
+    font-size: 16px;
+    color: #4C5BD4;
+}
+.popup_cancel .content .fet_02 .detail span, .popup_cancel .content .fet_02 .detail b, .popup_cancel .content .fet_02 .detail a{
+    font-size: 14px;
+}
+.popup_cancel .content .fet_02 .detail .ly_do{
+    display: flex;
+    margin: 15px 0px;
+}
+.popup_cancel .content .fet_02 .detail .ly_do b{
+    color: red;
+    width: 45%;
+    padding-top: 10px;
+}
+.popup_cancel .content .fet_02 .detail .ly_do a{
+    background: #EFEFEF;
+    border-radius: 10px;
+    padding: 7px;
+}
+.popup_cancel .content .fet_02 .xac_nhan button{
+    width: 100%;
+    height: 33px;
+    background: #4C5BD4;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+}
+@media only screen and (min-width: 1520px){
+    .popup {
+        padding: 10% 24%;
+    }
+    .popup_cancel .content .fet_02 .bill .tit_bill, .popup_cancel .content .fet_02 .bill .gia_bill {
+        width: 88px;
+    }
+    .popup_cancel .content .fet_02 .bill .gia_bill {
+        width: 76px;
+    }
+}
+@media only screen and (max-width: 1025px){
+    .popup {
+        padding: 10% 14%;
+    }
+}
+@media only screen and (max-width: 769px){
+    .popup {
+        padding: 10% 1%;
+    }
+}
+@media only screen and (max-width: 481px){
+    .popup {
+        padding: 23% 0% 0% 0%;
+        background: none;
+    }
+    .close-btn-com {
+        display: none;
+    }
+    .popup_cancel .content {
+        display: block;
+    }
+    .popup_cancel .content .fet_01, .popup_cancel .content .fet_02 {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.popup_02 {
+    display: none;
+    position: fixed;
+    padding: 10% 24%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+.popup_complete {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+}
+.popup_complete .title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.popup_complete .title h2{
+    font-weight: 500;
+    font-size: 20px;
+    color: #2F2F2F;
+}
+.close-btn-com {
+    color: #2E2E2E;
+    font-size: 25px;
+    font-weight: 700;
+}
+.popup_complete .content {
+    display: flex;
+    justify-content: space-between;
+}
+.popup_complete .content .fet_01, .popup_complete .content .fet_02{
+    width: 49%;
+}
+.popup_complete .content .fet_01 .map iframe{
+    height: 200px;
+    margin-bottom: 15px;
+}
+.popup_complete .content .fet_01 .dan_duong .add_dd{
+    display: flex;
+    margin-bottom: 11px;
+}
+.popup_complete .content .fet_01 .dan_duong .add_dd .icon_dd {
+    width: 10%;
+    background: url(../img/dan_duong.png) no-repeat;
+    background-position: center 8%;
+}
+.popup_complete .content .fet_01 .dan_duong .add_dd .ct_dd {
+    width: 90%;
+}
+.popup_complete .content .fet_01 .dan_duong .add_dd .ct_dd h2{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2F2F2F;
+}
+.popup_complete .content .fet_01 .dan_duong .add_dd .ct_dd .add_01 {
+    margin-bottom: 7%;
+}
+.popup_complete .content .fet_01 .dan_duong .add_dd .ct_dd span {
+    font-size: 12px;
+    background: url(../img/add_icon.png) no-repeat;
+    padding-left: 6%;
+    background-position: left;
+    background-size: 5%;
+}
+.popup_complete .content .fet_01 .dan_duong .add_dd .ct_dd h3 {
+    font-size: 12px;
+    line-height: 14px;
+    color: #4C5BD4;
+}
+.popup_complete .content .fet_01 .dan_duong .khoang_cach span{
+    font-size: 14px;
+}
+ .popup_complete .content .fet_02 h2{
+    font-weight: 500;
+    font-size: 16px;
+}
+ .popup_complete .content .fet_02 .mon_01 {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.5px solid #E5E5E5;
+    padding: 1% 0%;
+}
+.popup_complete .content .fet_02 .mon_01 .stt {
+    background: #4C5BD4;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup_complete .content .fet_02 .mon_01 .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup_complete .content .fet_02 .bill{
+    display: flex;
+    margin-top: 6px;
+    border-bottom: 1px solid #E5E5E5;
+    margin-bottom: 6px;
+}
+.popup_complete .content .fet_02 .bill .tit_bill, .popup_complete .content .fet_02 .bill .gia_bill{
+    width: 23%;
+}
+.popup_complete .content .fet_02 .bill .tit_bill{
+    text-align: left;
+}
+.popup_complete .content .fet_02 .bill .gia_bill {
+    width: 20%;
+    margin-left: 56%;
+    text-align: right;
+}
+.popup_complete .content .fet_02 .bill .gia_bill span{
+    font-weight: 500;
+    font-size: 14px;
+}
+.popup_complete .content .fet_02 .bill .tit_bill span, .popup_complete .content .fet_02 .bill .gia_bill span{
+    font-size: 14px;
+    line-height: 35px;
+}
+.popup_complete .content .fet_02 .total_bill{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.popup_complete .content .fet_02 .total_bill span{
+    font-size: 14px;
+}
+.popup_complete .content .fet_02 .total_bill a{
+    font-weight: 700;
+    font-size: 16px;
+    color: #4C5BD4;
+}
+.popup_complete .content .fet_02 .detail span, .popup_complete .content .fet_02 .detail b, .popup_complete .content .fet_02 .detail a{
+    font-size: 14px;
+}
+.popup_complete .content .fet_02 .done{
+    display: flex;
+    margin: 15px 0px;
+}
+.popup_complete .content .fet_02 .done span{
+    color: #329900;
+    padding: 10px 0px;
+}
+.popup_complete .content .fet_02 .xac_nhan button{
+    width: 100%;
+    height: 33px;
+    background: #4C5BD4;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+}
+@media only screen and (min-width: 1520px){
+    .popup_02 {
+        padding: 10% 24%;
+    }
+    .popup_complete .content .fet_02 .bill .tit_bill, .popup_complete .content .fet_02 .bill .gia_bill {
+        width: 88px;
+    }
+    .popup_complete .content .fet_02 .bill .gia_bill {
+        width: 76px;
+    }
+}
+@media only screen and (max-width: 1025px){
+    .popup_02 {
+        padding: 10% 14%;
+    }
+}
+@media only screen and (max-width: 769px){
+    .popup_02 {
+        padding: 10% 1%;
+    }
+}
+@media only screen and (max-width: 481px){
+    .popup_02 {
+        padding: 23% 0% 0% 0%;
+        background: none;
+    }
+    .close-btn {
+        display: none;
+    }
+    .popup_complete .content {
+        display: block;
+    }
+    .popup_complete .content .fet_01, .popup_complete .content .fet_02 {
+        width: 100%;
+    }
+}

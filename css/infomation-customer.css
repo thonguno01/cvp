@@ -1,0 +1,602 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+
+/* =========BODY======= */
+
+.body {
+    display: flex;
+    flex-direction: row;
+    padding: 0% 85px;
+    margin-top: 6%
+}
+
+.box-left {
+    width: 23%;
+}
+
+.box-left .wrap-box-left {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 5% 5%;
+}
+
+.box-left .wrap-box-left hr {
+    margin-bottom: 10px;
+}
+
+.box-left .wrap-box-left .active {
+    background: rgba(229, 229, 229, 0.36);
+    border-radius: 10px;
+}
+
+.home,
+.update-user,
+.update-address,
+.store-save {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 5px 10x;
+}
+
+.home .wrap,
+.update-user .wrap,
+.update-address .wrap,
+.store-save .wrap {
+    padding: 5px 10px;
+}
+
+.home .wrap>img,
+.update-user .wrap>img,
+.update-address .wrap>img,
+.store-save .wrap>img {
+    margin-top: -4px;
+}
+
+.home>img,
+.update-user>img,
+.update-address>img,
+.store-save>img {
+    object-fit: fill !important;
+    margin-right: 10px;
+}
+
+.home>a,
+.update-user>a,
+.update-address>a,
+.store-save>a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 159% */
+    color: #666666;
+}
+
+.box-right {
+    width: 76%;
+    margin-left: 50px;
+}
+
+.box-right .wrap-box-right {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.box-right .wrap-box-right .bg-info {
+    width: 36.6%;
+    height: 334px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box01 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-right .wrap-box-right .info-detail {
+    width: 100%;
+}
+
+.box-02 {
+    width: 68%;
+}
+
+.box-right .wrap-box-right .info-detail .title .name-title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 26px;
+    /* identical to box height, or 73% */
+    color: #2F2F2F;
+}
+
+.box-right .wrap-box-right .info-detail .title .sub-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.25px;
+    color: #2F2F2F;
+    margin: 10px 0px;
+}
+
+.box-right .wrap-box-right .img-me .name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 128% */
+    color: #2F2F2F;
+    margin: 30px 0px 15px 0px;
+}
+
+.box-right .wrap-box-right .img-me .image-change {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-right .wrap-box-right .img-me .camera {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-right .wrap-box-right .img-me .camera .border-camera {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F1F1F1;
+    border-radius: 50%;
+}
+
+.box-right .wrap-box-right .img-me .btn-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+}
+
+.box-right .wrap-box-right .img-me .btn-img .btn {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 30px;
+}
+
+.btn-img .btn .active {
+    background: #4C5BD4;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 159% */
+    color: #FFFFFF;
+}
+
+.box-right .wrap-box-right .img-me .btn-img .btn .change-image,
+.box-right .wrap-box-right .img-me .btn-img .btn .delete-image {
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 0px;
+    position: relative;
+}
+
+img#avata_info {
+    width: 100%;
+    height: 100%;
+    background: url(../img/camera.svg) no-repeat;
+    BORDER-RADIUS: 900EM;
+    background-position: center;
+}
+
+input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 47px;
+    width: 100%;
+}
+
+.box-right .wrap-box-right .img-me .btn-img .btn .delete-image {
+    margin-top: 10px;
+}
+
+.box-right .wrap-box-right .img-me .btn-img .btn .delete-image img {
+    margin-top: -5px;
+}
+
+.box-right .wrap-box-right .img-me .alert>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.25px;
+    color: #2F2F2F;
+    margin-top: 15px;
+}
+
+.box-right .form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-right .form-group .input {
+    position: relative;
+}
+
+.box-right .form-group .show-password {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.box-right .form-group .change-pass {
+    position: absolute;
+    right: -127px;
+    top: 23%;
+    padding: 5px 10px;
+    border: 1px solid #4C5BD4;
+    border-radius: 10px;
+    color: #4C5BD4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-right .form-group .change-pass span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.25px;
+    color: #4C5BD4;
+}
+
+.box-right .form-group .change-pass:hover {
+    background: #4C5BD4;
+}
+
+.box-right .form-group .change-pass:hover span {
+    color: #FFFFFF;
+}
+
+.box-right .form-group input,
+.box-right .form-group select {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 7px 30px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.25px;
+    color: #2F2F2F;
+}
+
+.box-right .form-group label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.25px;
+    margin-top: 10px;
+}
+
+.box-right .form-control {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box-right .form-control .fg-1 {
+    width: 70%;
+}
+
+.box-right .form-control .fg-2 {
+    width: 25%;
+}
+
+.box-right .btn_submit {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.box-right .btn_submit .complete {
+    margin-right: 13px;
+    padding: 10px 20px;
+    background: #F1F1F1;
+    border: none;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 159% */
+    color: #666666;
+}
+
+.box-right .btn_submit .save {
+    padding: 10px 20px;
+    background: #F1F1F1;
+    border: none;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 159% */
+    color: #666666;
+}
+
+.box-right .btn_submit .active {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 159% */
+    color: #FFFFFF;
+    background: #4C5BD4;
+}
+
+.color_red span,
+.color_error {
+    color: red;
+}
+
+.drop-down {
+    right: 83px;
+}
+
+.d-block {
+    display: block;
+}
+
+.wp-left-box1 {
+    width: 68%;
+}
+
+.change-pass-new {
+    display: none;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.change-pass-new span {
+    /* display: inline; */
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: underline;
+    color: #2758DD;
+    text-align: right;
+}
+
+.relative>img {
+    position: absolute;
+    right: 12px;
+    top: 18px;
+}
+
+.form-group .input {
+    display: flex;
+}
+
+.relative {
+    width: 100%;
+    position: relative;
+}
+
+div#icon_error_re_password,
+div#icon_error_password {
+    display: flex;
+    align-items: center;
+}
+
+#icon_error_passwordNew>img,
+#icon_error_re_password>img {
+    margin-top: 8px;
+}
+
+@media only screen and (min-width:1520px) {
+    .body {
+        padding: 0% 10.55%;
+    }
+    .box-left {
+        width: 24%;
+    }
+    .box-right .wrap-box-right .bg-info {
+        width: 33%;
+        height: 334px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .body {
+        padding: 0% 60px;
+        margin-top: 103px;
+    }
+    .box-left {
+        display: none;
+    }
+    .box-right {
+        width: 100%;
+        margin: 0;
+    }
+    .drop-down {
+        right: 30px;
+    }
+    .wp-left-box1 {
+        width: 58.1%;
+    }
+    .box-02 {
+        width: 61.2%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .body {
+        padding: 0% 50px;
+        margin-top: 103px;
+    }
+    .box-left {
+        display: none;
+    }
+    .box-right {
+        width: 100%;
+        margin: 0;
+    }
+    .box-right .wrap-box-right .img-me .name {
+        margin-top: 33px;
+    }
+    .drop-down {
+        right: 30px;
+    }
+    .box-right .wrap-box-right .img-me .btn-img {
+        width: 36.5%;
+    }
+    .box-02 {
+        width: 80%;
+    }
+    .box-right .wrap-box-right .img-me .btn-img {
+        width: 100%;
+    }
+    .box-right .wrap-box-right .img-me .btn-img .btn {
+        width: 166px;
+        margin-left: 30px;
+    }
+    .box-right .wrap-box-right .bg-info {
+        width: 42.6%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .body {
+        padding: 0% 16px;
+        margin-top: 80px;
+    }
+    .wp-left-box1 {
+        width: 100%;
+    }
+    .box-right .wrap-box-right .img-me .btn-img .btn {
+        width: 166px;
+        margin-left: 30px;
+    }
+    .box-right .wrap-box-right .bg-info {
+        display: none;
+    }
+    .box-right .wrap-box-right .img-me .btn-img .btn .delete-image {
+        margin-top: 10px;
+        padding: 7px 0px;
+    }
+    .box-right .wrap-box-right .img-me .btn-img {
+        justify-content: start;
+    }
+    .box-right .form-group .change-pass {
+        display: none;
+    }
+    .box-02 {
+        width: 100%;
+    }
+    .box-right .form-control {
+        flex-wrap: wrap;
+    }
+    .box-right .form-control .fg-2,
+    .box-right .form-control .fg-1 {
+        width: 100%;
+    }
+    .box-right .btn_submit {
+        display: flex;
+        margin: 10px 0px;
+    }
+    .change-pass-new {
+        display: block;
+    }
+    .box-right .wrap-box-right .info-detail .title .name-title {
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .btn-img .btn .active,
+    .box-right .wrap-box-right .img-me .alert>p,
+    .box-right .btn_submit .complete,
+    .box-right .btn_submit .active,
+    .box-right .btn_submit .active,
+    .box-right .wrap-box-right .img-me .btn-img .btn .delete-image span,
+    .box-right .wrap-box-right .info-detail .title .sub-title {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .body {
+        padding: 0% 16px;
+        margin-top: 80px;
+    }
+    .wp-left-box1 {
+        width: 100%;
+    }
+    .box-right .wrap-box-right .img-me .btn-img .btn {
+        width: 150px;
+        margin-left: 30px;
+    }
+    .box-right .wrap-box-right .bg-info {
+        display: none;
+    }
+    .box-right .wrap-box-right .img-me .btn-img .btn .delete-image {
+        margin-top: 10px;
+        padding: 7px 0px;
+    }
+    .box-right .wrap-box-right .img-me .btn-img {
+        justify-content: start;
+    }
+    .box-right .form-group .change-pass {
+        display: none;
+    }
+    .box-02 {
+        width: 100%;
+    }
+    .box-right .form-control {
+        flex-wrap: wrap;
+    }
+    .box-right .form-control .fg-2,
+    .box-right .form-control .fg-1 {
+        width: 100%;
+    }
+    .box-right .btn_submit {
+        display: flex;
+        margin: 10px 0px;
+    }
+    .change-pass-new {
+        display: block;
+    }
+    .box-right .wrap-box-right .info-detail .title .name-title {
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .btn-img .btn .active,
+    .box-right .wrap-box-right .img-me .alert>p,
+    .box-right .btn_submit .complete,
+    .box-right .btn_submit .active,
+    .box-right .btn_submit .active,
+    .box-right .wrap-box-right .img-me .btn-img .btn .delete-image span,
+    .box-right .wrap-box-right .info-detail .title .sub-title {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}

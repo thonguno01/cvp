@@ -1,0 +1,638 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.header {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    padding: 0% 85px;
+    justify-content: space-between;
+}
+
+.head-left {
+    width: 30%;
+}
+
+.logo {
+    width: 216px;
+    background-position: center;
+    background-size: 187px;
+}
+
+.select_district {
+    width: 20%;
+    display: flex;
+    padding: 25px 0px;
+    margin-left: 15px;
+}
+
+.select_district select {
+    width: 100%;
+    border: none;
+    background: bisque;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.head-left {
+    width: 40%;
+    display: flex;
+}
+
+.head-right {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.huong_dan {
+    width: auto;
+    display: flex;
+    padding: 25px 0px;
+    justify-content: center;
+}
+
+.tin_tuc {
+    width: auto;
+    display: flex;
+    padding: 25px 0px;
+    justify-content: center;
+}
+
+.notice {
+    width: auto;
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+}
+
+.notice a {
+    font-size: 14px;
+    line-height: 25px;
+    color: #666666;
+}
+
+.notice img {
+    width: 20px;
+    height: 20px;
+}
+
+.notifi {
+    padding: 26px 4px;
+    width: 9%;
+    height: 85px;
+    background: url(../img/notification.png) no-repeat;
+    background-position: center;
+}
+
+.notifi .cham_noti {
+    width: 100%;
+    height: 100%;
+    background: url(../img/noti_cham.png) no-repeat;
+    background-position: 15px 4px;
+}
+
+.notifi:hover .notifi_drop {
+    display: block;
+}
+
+.notifi_drop {
+    z-index: 11;
+    display: none;
+    position: absolute;
+    margin-left: -16%;
+    width: 390px;
+    height: 625px;
+    padding: 15px 24px;
+    overflow-y: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 6%);
+    border-radius: 10px px;
+    margin-top: -2px;
+}
+
+.title_noti {
+    display: flex;
+    border-bottom: 0.5px solid #C4C4C4;
+    height: 32px;
+}
+
+.title_noti h2 {
+    width: 86%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.title_noti a {
+    padding: 0;
+    width: 10%;
+    height: 32px;
+    background: url(../img/danh_dau_seen.png) no-repeat;
+    background-position: center;
+}
+
+.title_noti a:hover .read {
+    display: block;
+}
+
+.read {
+    display: none;
+    position: absolute;
+    width: 55%;
+    height: 26px;
+    margin-top: 6%;
+    margin-left: -43%;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgb(239 232 219 / 79%);
+    border-radius: 5px;
+}
+
+.read span {
+    padding-left: 14%;
+    background: url(../img/read.png) no-repeat;
+    background-position: 8px center;
+}
+
+.viu_all {
+    display: flex;
+    justify-content: end;
+}
+
+.viu_all a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #4C5BD4;
+}
+
+.content_noti {
+    flex-wrap: wrap;
+    display: flex;
+    padding: 2% 0%;
+    border-bottom: 0.5px solid #C4C4C4;
+}
+
+.ct_01 {
+    width: 20%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ct_01 img {
+    border-radius: 900em;
+    width: 40px;
+    height: 40px;
+}
+
+.ct_01 span {
+    width: 13%;
+    height: 59px;
+    background: url(../img/notice-new.png) no-repeat;
+    background-size: 83%;
+}
+
+.ct_02 {
+    width: 80%;
+}
+
+.ct_02 h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    color: #E63950;
+}
+
+.ct_02 span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    color: #FD9902;
+}
+
+.ct_02 a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #C4C4C4;
+    /* padding-left: 48%; */
+}
+
+.wrap_ct02 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.ct_03 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: justify;
+    color: #2F2F2F;
+    padding-left: 20%;
+}
+
+.name a:hover .menu_pro {
+    display: block;
+}
+
+.menu_pro {
+    z-index: 9;
+    display: none;
+    position: absolute;
+    width: 201px;
+    height: 128px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 9px 16px;
+    margin-left: -6%;
+    margin-top: 3%;
+}
+
+.menu_pro .b1 {
+    display: flex;
+    height: 34px;
+    background: url(../img/str-bag-timer.png) no-repeat;
+    background-position: left;
+    padding-left: 17%;
+}
+
+.menu_pro .b2 {
+    display: flex;
+    height: 34px;
+    background: url(../img/profile-circle.png) no-repeat;
+    background-position: left;
+    padding-left: 17%;
+    border-bottom: 0.5px solid #666666;
+}
+
+.menu_pro .b3 {
+    display: flex;
+    height: 34px;
+    background: url(../img/logout-icon.png) no-repeat;
+    background-position: left;
+    padding-left: 17%;
+}
+
+.menu_pro span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666666;
+}
+
+.taskbar a {
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+.text {
+    margin-left: 10px;
+}
+
+.text button {
+    border: none;
+    background: none;
+}
+
+.info-custom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-custom .image img {
+    width: 41px;
+    height: 41px;
+    border-radius: 999em;
+}
+
+.drop-down {
+    display: none;
+    position: absolute;
+    right: 10%;
+    top: 69px;
+    padding: 10px 10px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 10px;
+    z-index: 11;
+}
+
+.drop-down img {
+    padding-right: 10px;
+}
+
+.drop-down hr {
+    margin-top: 10px;
+}
+
+.drop-down .saved,
+.drop-down .history-buy,
+.drop-down .up-user,
+.drop-down .logout {
+    padding-top: 10px;
+}
+
+.drop-down a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 159% */
+    color: #666666;
+}
+
+
+/* =============================================Phần header-respon ====================== */
+
+.icon-menu-header {
+    background: url(../img/menu.svg) no-repeat;
+    width: 40px;
+    background-position: 50%;
+    margin-left: 40px;
+    display: none;
+    border: none;
+}
+
+.menu-option {
+    width: 100%;
+    padding: 24px 32px;
+    background: #FFFFFF;
+    position: absolute;
+    display: none;
+    top: 96px;
+    z-index: 10;
+}
+
+.line-1,
+.up-user {
+    padding-bottom: 14px;
+}
+
+.saved,
+.logout,
+.history-buy,
+.up-user,
+.line-2 a {
+    padding-top: 14px;
+    color: #666666;
+}
+
+.color-menu-option a,
+.line-1 a,
+.line-2 a {
+    font-size: 16px;
+    line-height: 25px;
+    color: #666666;
+}
+
+.line-2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+}
+
+.info-custom-menu .text-menu a,
+.info-custom .text a {
+    font-size: 16px;
+    line-height: 25.5px;
+    color: #666666;
+    font-weight: 500;
+}
+
+.info-custom-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.info-custom-menu .image-menu img {
+    width: 30px;
+    height: 30px;
+}
+
+.d-block {
+    display: block;
+}
+
+@media only screen and (min-width: 1520px) {
+    .header {
+        padding: 0% 10.55%;
+    }
+    .box-left {
+        width: 24%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    /* respon-header-sau-đăng nhâp */
+    .header {
+        padding: 0%;
+        height: unset;
+    }
+    .select_district,
+    .huong_dan,
+    .tin_tuc {
+        display: none;
+    }
+    .head-right {
+        justify-content: end;
+        margin-right: 32px;
+    }
+    .notice {
+        margin-right: 8px;
+        align-items: center;
+    }
+    .head-left {
+        width: fit-content;
+        display: flex;
+        margin-left: 34%;
+    }
+    .icon-menu-header {
+        display: block;
+    }
+    .info-custom-menu {
+        display: none;
+    }
+    .logo {
+        width: 216px;
+        background-size: 216px;
+    }
+    .drop-down {
+        right: 32px;
+        top: 65px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* respon-header-sau-đăng nhâp */
+    .header {
+        padding: 0%;
+        height: unset;
+        margin-top: 26px;
+    }
+    .select_district,
+    .huong_dan,
+    .tin_tuc {
+        display: none;
+    }
+    .head-right {
+        justify-content: end;
+        margin-right: 32px;
+    }
+    .notice {
+        margin-right: 8px;
+        align-items: center;
+    }
+    .head-left {
+        width: fit-content;
+        display: flex;
+        margin-left: 22%;
+    }
+    .icon-menu-header {
+        display: block;
+    }
+    .logo {
+        width: 142px;
+        background-size: 142px;
+    }
+    .drop-down {
+        right: 32px;
+        top: 87px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* respon-header-sau-đăng nhâp */
+    .header {
+        padding: 0%;
+        height: unset;
+        margin-top: 26px;
+        height: 69px;
+    }
+    .select_district,
+    .huong_dan,
+    .tin_tuc {
+        display: none;
+    }
+    .head-right {
+        display: none;
+    }
+    .icon-menu-header {
+        display: block;
+    }
+    .notice {
+        margin-right: 8px;
+        align-items: center;
+    }
+    .head-left {
+        width: fit-content;
+        display: flex;
+        margin-left: 22%;
+    }
+    .icon-menu-header {
+        display: block;
+        margin-left: 23px;
+    }
+    /* keets thhu respo header */
+    .logo {
+        width: 142px;
+        background-size: 142px;
+    }
+    .info-custom-menu {
+        display: flex;
+    }
+    .info-custom-menu .text-menu a,
+    .info-custom .text a {
+        font-size: 14px;
+    }
+    .color-menu-option a,
+    .line-1 a,
+    .line-2 a {
+        font-size: 14px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    /* respon-header-sau-đăng nhâp */
+    .header {
+        padding: 0%;
+        height: unset;
+        margin-top: 26px;
+        height: 69px;
+    }
+    .select_district,
+    .huong_dan,
+    .tin_tuc {
+        display: none;
+    }
+    .head-right {
+        display: none;
+    }
+    .icon-menu-header {
+        display: block;
+    }
+    .notice {
+        margin-right: 8px;
+        align-items: center;
+    }
+    .head-left {
+        width: fit-content;
+        display: flex;
+        margin-left: 22%;
+    }
+    .icon-menu-header {
+        display: block;
+        margin-left: 23px;
+    }
+    /* keets thhu respo header */
+    .logo {
+        width: 142px;
+        background-size: 142px;
+    }
+    .info-custom-menu {
+        display: flex;
+    }
+    .info-custom-menu .text-menu a,
+    .info-custom .text a {
+        font-size: 14px;
+    }
+    .color-menu-option a,
+    .line-1 a,
+    .line-2 a {
+        font-size: 14px;
+        line-height: 25px;
+    }
+}

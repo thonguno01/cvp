@@ -1,0 +1,1635 @@
+.cvp {
+    width: 30%;
+    margin: 4% 8% 1% 12%;
+}
+
+.content {
+    padding: 2% 7%;
+}
+
+.form_02,
+
+/* .form_01, */
+
+.form_03,
+.form_04,
+.form_05,
+.form_06 {
+    display: none;
+}
+
+
+/* step1 */
+
+.step1 {
+    width: 100%;
+    height: 115px;
+    background: url(../img/step1.png) no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+.head h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 26px;
+    color: #2F2F2F;
+    margin-bottom: 15px;
+}
+
+.head span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    color: #2F2F2F;
+}
+
+.info_basic form {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info_basic .input_info {
+    width: 53%;
+    padding-right: 3%;
+}
+
+.input_info input,
+select {
+    width: 100%;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    height: 40px;
+    padding-left: 23px;
+}
+
+.message_error_featured {
+    font-weight: 400;
+}
+
+.time_open {
+    display: flex;
+}
+
+.error,
+.message_error_ngay_phuc_vu,
+.massage_error_name_mon_an,
+.message_error_anh_chitiet,
+.message_error_descrip,
+.message_error_gia_tien,
+.message_error_anh_dai_dien,
+.message_error_anh_bia,
+.message_error_culinary,
+.message_error_time_open1,
+.message_error_time_open2,
+.message_error_time_open3,
+.message_error_type,
+.message_error_search,
+.message_error_ship_fee,
+.message_error_mota,
+.message_error_name_mer,
+.message_error_featured,
+.message_error_phone_mer,
+.message_error_home_num,
+.input_info span {
+    color: red;
+    /* margin-left: 1%; */
+    font-style: italic;
+}
+
+.input_info h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    color: #2F2F2F;
+}
+
+.name_mer,
+.featured,
+.phone_mer,
+.city,
+.district {
+    margin-bottom: 20px;
+}
+
+.info_basic .map {
+    width: 47%;
+}
+
+.info_basic .map h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    color: #2F2F2F;
+}
+
+.map button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    color: #FD9902;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 31px;
+    width: 26%;
+    background: none;
+    float: right;
+    margin-top: 7px;
+}
+
+.next_st1 button {
+    padding: 6px 10px;
+    width: 253px;
+    height: 42px;
+    background: #4C5BD4;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+    margin: 11% 121%;
+}
+
+
+/* step2 */
+
+.step2 {
+    width: 100%;
+    height: 115px;
+    background: url(../img/step2.png) no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+.info_detail form {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info_detail .input_info {
+    width: 53%;
+    padding-right: 3%;
+}
+
+.time_open select {
+    padding: 0;
+    width: 93.5px;
+    height: 26px;
+    background: #F3F3F3;
+    border-radius: 5px;
+}
+
+.open_1 {
+    width: 50%;
+    float: left;
+}
+
+.open_2 {
+    width: 50%;
+    float: right;
+}
+
+.type,
+.culinary,
+.search,
+.ship_fee {
+    margin-bottom: 20px;
+}
+
+.ship_fee input {
+    width: 68%;
+    float: left;
+}
+
+.ship_fee select {
+    width: 32%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    color: #2F2F2F;
+    border-left: none;
+}
+
+.info_detail .anh {
+    width: 47%;
+}
+
+.anh_bia {
+    margin-top: 4%;
+}
+
+.avatar_anh h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    color: #2F2F2F;
+}
+
+.avatar_anh .img {
+    width: 150px;
+    height: 150px;
+    background: #F3F3F3;
+    border-radius: 100px;
+    float: left;
+    background-position: center;
+    margin-right: 5%;
+}
+
+.avatar_anh img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    float: left;
+    background: url(../img/camera.png) no-repeat;
+    background-position: center;
+}
+
+.avatar_anh input {
+    width: 166px;
+    height: 46px;
+    position: absolute;
+    opacity: 0;
+    margin-left: -121px;
+    margin-top: -10px;
+}
+
+.avatar_anh button {
+    width: 166px;
+    height: 46px;
+    background: #4C5BD4;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.avatar_anh span {
+    float: left;
+    margin-top: 1%;
+}
+
+.info_detail .anh {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.anh_bia h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    color: #2F2F2F;
+}
+
+.anh_bia .img_bia {
+    width: 527px;
+    height: 285px;
+    background: #F3F3F3;
+    border-radius: 20px;
+}
+
+.ip_bia {
+    padding: 2%;
+    z-index: 9;
+    position: absolute;
+    margin-top: -13%;
+}
+
+.ip_bia button {
+    color: #FFFFFF;
+    width: 136px;
+    height: 36px;
+    background: #4C5BD4;
+    border-radius: 10px;
+    border: none;
+}
+
+.ip_bia input {
+    position: absolute;
+    opacity: 0;
+    width: 136px;
+    height: 36px;
+    margin-left: -106px;
+    margin-top: -7px;
+}
+
+.next_st2 button {
+    padding: 6px 10px;
+    width: 253px;
+    height: 42px;
+    background: #4C5BD4;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+}
+
+button.back {
+    width: 253px;
+    height: 42px;
+    background: #F3F3F3;
+    border-radius: 10px;
+    color: #979797;
+    margin: 0;
+}
+
+
+/* step3 */
+
+.step3 {
+    width: 100%;
+    height: 115px;
+    background: url(../img/step3.png) no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+.info_menu form {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.them_mon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 2%;
+    border-bottom: 2px solid #F3F3F3;
+}
+
+.them_mon .anh_chitiet {
+    width: 45%;
+    margin-right: 3%;
+}
+
+.chitiet_h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    color: #2F2F2F;
+    margin-bottom: 6px;
+}
+
+.them_mon .img_chitiet {
+    width: 100%;
+    height: 327px;
+    background: #F3F3F3;
+    border-radius: 20px;
+    position: relative;
+}
+
+.ip_chitiet {
+    padding: 2%;
+    z-index: 9;
+    position: absolute;
+    margin-top: -13%;
+}
+
+.ip_chitiet button {
+    color: #FFFFFF;
+    width: 136px;
+    height: 36px;
+    background: #4C5BD4;
+    border-radius: 10px;
+    border: none;
+}
+
+.ip_chitiet input {
+    position: absolute;
+    opacity: 0;
+    width: 136px;
+    height: 36px;
+    margin-left: -106px;
+    margin-top: -7px;
+}
+
+.them_mon .info_mon {
+    width: 50%;
+}
+
+.name_mon span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    color: #2F2F2F;
+}
+
+.name_mon a {
+    color: red;
+}
+
+.name_mon .input_mon {
+    width: 100%;
+    border: 2px solid #C4C4C4;
+    border-radius: 10px;
+    display: flex;
+    padding: 3px;
+    margin-bottom: 1%;
+}
+
+.input_mon input {
+    border: none;
+    padding-left: 2%;
+    height: 30px;
+    border-right: 1px solid #666666;
+    width: 265%;
+}
+
+.input_mon {
+    width: 100%;
+    display: flex;
+}
+
+.input_mon input::placeholder,
+.descrip input::placeholder,
+.input_gia input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    color: #C4C4C4;
+}
+
+.input_mon select {
+    border: none;
+    height: 30px;
+}
+
+.name_mon .lable_mon {
+    display: flex;
+    margin-bottom: 3%;
+}
+
+.lable_mon h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    color: #FBAD2B;
+    margin-right: 3%;
+}
+
+.lable_mon span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 168%;
+    letter-spacing: 0.25px;
+    color: #666666;
+    background: #F3F3F3;
+    border-radius: 5px;
+    padding: 3px;
+    margin-right: 10px;
+}
+
+.lable_mon b {
+    margin-left: 7px;
+    font-weight: 700;
+}
+
+.descrip input {
+    width: 100%;
+    border: 2px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 3px;
+    margin-bottom: 2%;
+    padding-left: 2%;
+    height: 43px;
+}
+
+.gia_tien .input_gia {
+    width: 100%;
+    border: 2px solid #C4C4C4;
+    border-radius: 10px;
+    display: flex;
+    padding: 3px;
+    margin-bottom: 2%;
+}
+
+.input_gia input {
+    border: none;
+    padding-left: 2%;
+    height: 30px;
+    border-right: 1px solid #666666;
+    width: 265%;
+}
+
+.input_gia select {
+    border: none;
+    height: 30px;
+}
+
+.serve {
+    display: flex;
+    justify-content: space-between;
+}
+
+.serve .featured {
+    width: 31%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ngay_serve select {
+    width: 93.5px;
+    height: 26px;
+    background: #F3F3F3;
+    border-radius: 5px;
+    padding-left: 0;
+}
+
+.featured span {
+    color: red;
+}
+
+.message_error_featured {
+    color: red;
+    font-weight: 500;
+}
+
+.featured button {
+    width: 12%;
+    border: none;
+    background: url(../img/trash.png) no-repeat;
+    background-position: center;
+}
+
+.next_st2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.next_st2 .bt_them {
+    width: 48%;
+    margin-left: 6%;
+}
+
+.bt_them button {
+    background: #F3F3F3;
+    border-radius: 10px;
+    color: #666666;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt_them .icon_add {
+    width: 6%;
+    background: url(../img/add-square.png) no-repeat;
+    height: 23px;
+}
+
+.name_mon {
+    position: relative;
+}
+
+.choose-loai-mon-an {
+    position: absolute;
+    z-index: 10;
+    background: #FFFFFF;
+    ;
+    right: 0;
+    padding: 15px;
+    width: 432px;
+    border-radius: 10px;
+}
+
+.title-loai-mon-an p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    color: #2F2F2F;
+}
+
+.can-choose-mon-an {
+    background: #f1f1f1;
+    padding: 5px 10px;
+    margin-top: 15px;
+}
+
+.mon-an-2,
+.mon-an-1 {
+    display: flex;
+}
+
+.wrap-mon-an-2,
+.wrap-mon-an-1 {
+    margin-left: 5px;
+}
+
+p.name-can-choose-mon-an {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: justify;
+    color: #2F2F2F;
+}
+
+.icon-dropdown-mon-an-2,
+.icon-dropdown-mon-an-1 {
+    width: 15px;
+    background: url(../img/drop-down.svg) no-repeat;
+    height: 15px;
+    background-position-y: 7px;
+}
+
+span.name-mon-an-2,
+span.name-mon-an-1 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 182% */
+    text-align: justify;
+    color: #2F2F2F;
+}
+
+.sub-wrap-mon-an-1 {
+    display: none;
+}
+
+.sub-wrap-mon-an-2 {
+    display: none;
+}
+
+.select-mon-an .list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.select-mon-an .list span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 8px 3px 10px;
+    background: #F3F3F3;
+    border: 0.5px solid #979797;
+    border-radius: 5px;
+    /* height: 27px; */
+    font-size: 14px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    color: #666666;
+    margin-right: 10px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.select-mon-an .list .close_lable_mon {
+    margin-left: 7px;
+    font-weight: 700;
+}
+
+
+/* STEP 4 */
+
+.step4 {
+    width: 100%;
+    height: 115px;
+    background: url(../img/step4.png) no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+.them_combo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 2%;
+    border-bottom: 2px solid #F3F3F3;
+    padding-bottom: 1%;
+}
+
+.them_combo .anh_chitiet {
+    width: 45%;
+    margin-right: 3%;
+    position: relative;
+}
+
+.chitiet_h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    color: #2F2F2F;
+    margin-bottom: 6px;
+}
+
+.them_combo .img_chitiet {
+    width: 100%;
+    height: 327px;
+    background: #F3F3F3;
+    border-radius: 20px;
+}
+
+.ip_chitiet {
+    padding: 2%;
+    z-index: 9;
+    position: absolute;
+    margin-top: -13%;
+}
+
+.ip_chitiet button {
+    color: #FFFFFF;
+    width: 136px;
+    height: 36px;
+    background: #4C5BD4;
+    border-radius: 10px;
+    border: none;
+}
+
+.ip_chitiet input {
+    position: absolute;
+    opacity: 0;
+    width: 136px;
+    height: 36px;
+    margin-left: -106px;
+    margin-top: -7px;
+}
+
+.them_combo .info_combo {
+    width: 50%;
+}
+
+.name_combo span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    color: #2F2F2F;
+}
+
+.name_combo a {
+    color: red;
+}
+
+.name_combo .input_combo {
+    width: 100%;
+    border: 2px solid #C4C4C4;
+    border-radius: 10px;
+    display: flex;
+    padding: 3px;
+    margin-bottom: 1%;
+}
+
+.input_combo input {
+    border: none;
+    padding-left: 2%;
+    height: 30px;
+    border-right: 1px solid #666666;
+    width: 265%;
+}
+
+.combo input::placeholder,
+.descrip_combo input::placeholder,
+.gia_combo input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    color: #C4C4C4;
+}
+
+.input_mon .type_dish {
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    background: url(../img/drop-down.svg) no-repeat;
+    background-position: right;
+}
+
+.input_mon .type_dish p {
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.25px;
+    color: #2F2F2F;
+}
+
+.combo input {
+    width: 100%;
+    border: 2px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 3px;
+    margin-bottom: 2%;
+    padding-left: 2%;
+    height: 43px;
+}
+
+.choose_combo {
+    width: 100%;
+    border: 2px solid #C4C4C4;
+    border-radius: 10px;
+    display: flex;
+    padding: 3px;
+    margin-bottom: 1%;
+}
+
+.choose_combo input {
+    border: none;
+    padding-left: 2%;
+    height: 30px;
+    border-right: 1px solid #666666;
+    width: 265%;
+}
+
+.choose_combo select {
+    border: none;
+    height: 30px;
+}
+
+.input_combo select {
+    border: none;
+    height: 30px;
+}
+
+.featured_combo button {
+    width: 27px;
+    height: 30px;
+    border: none;
+    background: url(../img/trash.png) no-repeat;
+    background-position: center;
+}
+
+.wrap-combo {
+    width: 100%;
+}
+
+.wrap-them-mon {
+    width: 100%;
+}
+
+.wrap-info-group {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+.img_chitiet>img {
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    border-radius: 20px;
+}
+
+img#image_bia {
+    height: inherit;
+    width: 100%;
+}
+
+.btn_save_cancle {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.btn_save_cancle .save {
+    padding: 6px 10px;
+    width: 77px;
+    height: 42px;
+    background: #4C5BD4;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+}
+
+.btn_save_cancle .cancle {
+    padding: 6px 10px;
+    width: 77px;
+    height: 42px;
+    background: #F3F3F3;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    color: #979797;
+    border: none;
+    margin-right: 10px;
+}
+
+.btn_save_cancle .cancle:hover {
+    padding: 6px 10px;
+    width: 77px;
+    height: 42px;
+    background: #EB5757;
+    color: #ffffff;
+}
+
+
+/* STEP 5 */
+
+.step5 {
+    width: 100%;
+    height: 115px;
+    background: url(../img/step5.png) no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+.info_gr .head h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 26px;
+    color: #2F2F2F;
+    margin-bottom: 38px;
+}
+
+.info_group {
+    width: 46%;
+    margin-right: 2%;
+    padding-bottom: 2%;
+}
+
+.info_gr form {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info_group span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    color: #2F2F2F;
+}
+
+.info_group a {
+    color: red;
+}
+
+.name_gr input {
+    width: 100%;
+    border: 2px solid #C4C4C4;
+    border-radius: 10px;
+    padding: 3px;
+    margin-bottom: 2%;
+    padding-left: 2%;
+    height: 43px;
+}
+
+.choose {
+    width: 100%;
+    border: 2px solid #C4C4C4;
+    border-radius: 10px;
+    display: flex;
+    padding: 3px;
+    margin-bottom: 1%;
+}
+
+.gr_choose {
+    position: relative;
+}
+
+.choose input {
+    border: none;
+    padding-left: 2%;
+    height: 30px;
+    border-right: 1px solid #666666;
+    width: 265%;
+    margin-right: 115px;
+    padding-right: 115px;
+}
+
+.name-group {
+    position: absolute;
+    right: 5px;
+    top: 33px;
+    /* bottom: 0; */
+    width: 110px;
+    background: url(../img/drop-down.svg) no-repeat;
+    background-position: right;
+}
+
+.choose select {
+    border: none;
+    height: 30px;
+}
+
+.delete button {
+    width: 27px;
+    height: 30px;
+    border: none;
+    background: url(../img/trash.png) no-repeat;
+    background-position: center;
+    float: right;
+}
+
+
+/* STEP 6 */
+
+.step6 {
+    width: 100%;
+    height: 115px;
+    background: url(../img/step6.png) no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+.head_done h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 26px;
+    text-align: center;
+    color: #2F2F2F;
+    margin: 3% 0%;
+}
+
+h2.chitiet_h2_done {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #2F2F2F;
+    text-align: center;
+}
+
+.done form {
+    display: flex;
+    justify-content: center;
+}
+
+.gif {
+    width: 428px;
+    height: 428px;
+    background: url(../img/done_gif.gif) no-repeat;
+    background-size: 100%;
+}
+
+.done_start button {
+    width: 151px;
+    height: 42px;
+    background: #4C5BD4;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+}
+
+.done_start {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 1520px) {
+    .step1,
+    .step2,
+    .step3,
+    .step4,
+    .step5,
+    .step6 {
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .cvp {
+        width: 20%;
+        margin: 3% 9% 0% 12%;
+    }
+    .step1,
+    .step2,
+    .step3,
+    .step4,
+    .step5,
+    .step6 {
+        background-size: 100%;
+    }
+    .anh_bia .img_bia {
+        width: 433px;
+    }
+    .ip_bia {
+        padding: 0% 10% 0% 4%;
+    }
+    .next_st2 {
+        justify-content: unset;
+    }
+    .info_detail .next_st2 button {
+        margin-left: 3%;
+        width: 20%;
+    }
+    button.back {
+        width: 20%;
+    }
+    .them_mon .ip_chitiet {
+        padding: 0% 58% 0% 2%;
+        margin-top: -18%;
+    }
+    .serve .featured {
+        width: 43%;
+        align-items: center;
+    }
+    .featured button {
+        height: 100%;
+    }
+    .bt_them .icon_add {
+        width: 8%;
+    }
+    .them_combo .ip_chitiet {
+        margin-top: -50%;
+    }
+    .head_done h2 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .info_basic form,
+    .info_detail form {
+        margin-top: 23px;
+        display: unset;
+    }
+    .next_st1 button {
+        margin: 2% 0%;
+    }
+    .info_basic .input_info,
+    .info_basic .map,
+    .info_detail .input_info {
+        width: 100%;
+        padding-right: 0%;
+        margin-top: 3%;
+    }
+    .info_detail .anh {
+        width: 100%;
+        margin-top: 3%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .avatar_anh button {
+        margin-top: 4%;
+        width: 151px;
+        height: 35px;
+    }
+    .form_02 .ip_bia {
+        margin-top: -27%;
+    }
+    .form_02 .next_st2 {
+        margin-top: 3%;
+    }
+    .them_mon .anh_chitiet {
+        width: 34%;
+        margin-right: 3%;
+    }
+    .them_mon .info_mon {
+        width: 63%;
+    }
+    .them_mon .img_chitiet {
+        height: 164px;
+    }
+    .them_mon .ip_chitiet {
+        padding: 0% 66% 0% 2%;
+        margin-top: -14%;
+    }
+    .ip_chitiet button {
+        width: 100%;
+    }
+    .bt_them .icon_add {
+        width: 14%;
+    }
+    .them_combo .anh_chitiet {
+        width: 34%;
+    }
+    .them_combo .info_combo {
+        width: 63%;
+    }
+    .them_combo .img_chitiet {
+        height: 164px;
+    }
+    .info_group {
+        width: 100%;
+        margin-right: 0%;
+    }
+    .head_done h2 {
+        line-height: 38px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .step1 {
+        background: url(../img/step1a.png) no-repeat;
+        background-size: 100%;
+    }
+    .step2 {
+        background: url(../img/step2a.png) no-repeat;
+        background-size: 100%;
+    }
+    .step3 {
+        background: url(../img/step3a.png) no-repeat;
+        background-size: 100%;
+    }
+    .step4 {
+        background: url(../img/step4a.png) no-repeat;
+        background-size: 100%;
+    }
+    .step5 {
+        background: url(../img/step5a.png) no-repeat;
+        background-size: 100%;
+    }
+    .step6 {
+        background: url(../img/step6a.png) no-repeat;
+        background-size: 100%;
+    }
+    .step1,
+    .step2,
+    .step3,
+    .step4,
+    .step5,
+    .step6 {
+        height: 70px;
+    }
+    .cvp {
+        width: 40%;
+        margin: 3% 9% 2% 12%;
+    }
+    .head h2 {
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+    .head span {
+        font-size: 12px;
+    }
+    .input_info h2 {
+        font-size: 12px;
+    }
+    .input_info input,
+    select {
+        height: 29px;
+        padding-left: 14px;
+        font-size: 12px;
+    }
+    .input_info input,
+    select::placeholder {
+        font-size: 12px;
+    }
+    .input_mon input::placeholder,
+    .descrip input::placeholder,
+    .input_gia input::placeholder {
+        font-size: 12px;
+    }
+    .combo input::placeholder,
+    .descrip_combo input::placeholder,
+    .gia_combo input::placeholder {
+        font-size: 12px;
+    }
+    .name_mer,
+    .featured,
+    .phone_mer,
+    .city,
+    .district {
+        margin-bottom: 4px;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+        font-size: 12px;
+    }
+    input.select2-search__field {
+        height: 28px;
+    }
+    .select2-results__option--selectable {
+        height: 27px;
+        font-size: 12px;
+    }
+    .map_im iframe {
+        height: 50%;
+    }
+    .map button {
+        font-size: 14px;
+        width: 35%;
+    }
+    .next_st1 button {
+        width: 45%;
+        height: 31px;
+        font-size: 14px;
+    }
+    .time_open select {
+        width: 43%;
+        height: 21px;
+        font-size: 12px;
+    }
+    .ship_fee select {
+        font-size: 12px;
+    }
+    .info_detail .anh {
+        display: unset;
+    }
+    .avatar_anh button {
+        width: 121px;
+        height: 34px;
+        font-size: 14px;
+    }
+    .avatar_anh {
+        margin-top: 4%;
+        margin-bottom: 4%;
+        height: 183px;
+    }
+    .avatar_anh span {
+        width: 48%;
+        font-size: 12px;
+    }
+    .anh_bia .img_bia {
+        width: 100%;
+        height: 179px;
+    }
+    .ip_bia button {
+        width: 121px;
+        height: 34px;
+        font-size: 14px;
+    }
+    .ip_bia span {
+        font-size: 12px;
+    }
+    .info_detail .next_st2 button {
+        width: 45%;
+        height: 32px;
+        font-size: 13px;
+    }
+    .them_mon {
+        display: unset;
+    }
+    .them_mon .anh_chitiet {
+        width: 100%;
+        margin-right: 0%;
+    }
+    .them_mon .ip_chitiet {
+        padding: 0% 23% 0% 2%;
+        margin-top: -32%;
+    }
+    .ip_chitiet button {
+        width: 37%;
+        height: 30px;
+        font-size: 13px;
+    }
+    .ip_chitiet span {
+        font-size: 12px;
+    }
+    .them_mon .info_mon {
+        width: 100%;
+        margin-top: 4%;
+    }
+    .input_mon .type_dish p {
+        font-size: 12px;
+    }
+    .input_mon input {
+        height: 22px;
+    }
+    .lable_mon h2 {
+        font-size: 14px;
+    }
+    .lable_mon span {
+        font-size: 12px;
+    }
+    .descrip input {
+        height: 34px;
+    }
+    .input_gia input {
+        height: 24px;
+    }
+    .input_gia select {
+        height: 24px;
+    }
+    .name_mon span {
+        font-size: 12px;
+        ;
+    }
+    .ngay_serve select {
+        width: 40%;
+    }
+    .featured button {
+        background-size: 100%;
+    }
+    .info_menu .next_st2 button {
+        font-size: 12px;
+        width: 30%;
+        height: 30px;
+        margin-top: 4%;
+    }
+    .info_menu .next_st2 .bt_them button {
+        width: 100%;
+        margin-top: 9%;
+    }
+    .info_menu .next_st2 .bt_them .icon_add {
+        background-size: 100%;
+        background-position: center;
+        margin-right: 3%;
+    }
+    .info_menu form {
+        margin-top: 18px;
+    }
+    .chitiet_h2 {
+        font-size: 14px;
+    }
+    .them_combo {
+        display: unset;
+    }
+    .them_combo .anh_chitiet {
+        width: 100%;
+    }
+    .them_combo .ip_chitiet {
+        margin-top: -40%;
+    }
+    .them_combo .info_combo {
+        width: 100%;
+        margin-top: 4%;
+    }
+    .name_combo span {
+        font-size: 12px;
+    }
+    .combo input {
+        height: 33px;
+    }
+    .choose_combo input {
+        height: 24px;
+    }
+    .choose_combo select {
+        padding: 0;
+        height: 24px;
+    }
+    .input_combo input {
+        height: 24px;
+    }
+    .input_combo select {
+        padding: 0;
+        height: 24px;
+    }
+    .featured_combo button {
+        background-size: 59%;
+    }
+    .info_gr .head h2 {
+        font-size: 25px;
+        margin-bottom: 11px;
+    }
+    .info_group span {
+        font-size: 12px;
+    }
+    .name_gr input {
+        height: 34px;
+    }
+    .choose input {
+        height: 24px;
+    }
+    .choose input::placeholder,
+    .name_gr input::placeholder {
+        font-size: 12px;
+    }
+    .name-group p {
+        font-size: 12px;
+    }
+    .name-group {
+        top: 30px;
+    }
+    .delete button {
+        background-size: 59%;
+    }
+    .info_gr .next_st2 button {
+        height: 33px;
+        width: 38%;
+        font-size: 12px;
+        margin-left: 3%;
+    }
+    .info_gr .next_st2 .bt_them button {
+        width: 100%;
+        margin: 0;
+    }
+    .info_gr .next_st2 .bt_them .icon_add {
+        background-size: 100%;
+        background-position: center;
+    }
+    .head_done h2 {
+        font-size: 25px;
+    }
+    h2.chitiet_h2_done {
+        font-size: 16px;
+    }
+    .gif {
+        width: 58%;
+        height: 190px;
+    }
+    .done_start button {
+        font-size: 12px;
+        width: 124px;
+        height: 33px;
+    }
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 40px;
+    padding-left: 4%;
+}
+
+.select2-container .select2-selection--single {
+    display: block;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #C4C4C4;
+    background: url(../img/drop_danhmuc.png) no-repeat;
+    background-position: 97% 50%;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    display: none;
+}
+
+.choose_combo .select2-container .select2-selection--single {
+    height: 30px;
+    border: none;
+    width: 187px;
+}
+
+.choose_combo .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 31px;
+}
+
+/* .form_01,.form_02,.form_03,.form_04,.form_05{
+    display: none;
+}
+.form_06{
+    display: block;
+} */

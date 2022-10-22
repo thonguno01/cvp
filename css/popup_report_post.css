@@ -1,0 +1,295 @@
+#report {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    z-index: 9;
+    top: 0;
+    position: fixed;
+}
+
+#report #wrap-report {
+    border-radius: 10px;
+    max-width: 565px;
+    margin: 0px auto;
+    padding: 15px;
+    background: #FFFFFF;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 27%;
+}
+
+#report #wrap-report .title-report {
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: start;
+}
+
+#report #wrap-report .title-report .icon-report {
+    background: url(../img/warning-2.svg) no-repeat;
+    width: 23px;
+}
+
+#report #wrap-report .title-report p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height, or 128% */
+    color: #EB5757;
+    padding-left: 13px;
+}
+
+#report #wrap-report .content-report .choose-why-report {
+    display: flex;
+    margin-bottom: 20px;
+    width: fit-content;
+    position: relative;
+}
+
+.ic-drop-down {
+    background: url(../img/drop-down.svg) no-repeat;
+    width: 15px;
+    height: 100%;
+    position: absolute;
+    right: 6px;
+    background-position: center;
+}
+
+#report #wrap-report .content-report .choose-why-report label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #2F2F2F;
+    align-items: center;
+    justify-content: end;
+    display: flex;
+    width: 133px;
+}
+
+select {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    /* margin-left: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    gap: 10px;
+    width: 165px;
+    height: 36px;
+    background: #F3F3F3;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2F2F2F;
+    margin-left: 15px;
+    width: fit-content;
+    padding-right: 20px;
+}
+
+.text-why {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.name-text-why {
+    width: 28%;
+}
+
+.textarea-why {
+    width: 72%;
+}
+
+.text-why .textarea-why textarea {
+    width: 100%;
+    /* margin-left: 14px; */
+    padding-left: 10px;
+    background: #F3F3F3;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: justify;
+    color: #2F2F2F;
+    min-height: 92px;
+    border: none;
+}
+
+.name-text-why p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #EB5757;
+    width: 133px;
+}
+
+.bot-system {
+    margin: 17px auto;
+    text-align: center;
+}
+
+.bot-system {
+    margin: 17px auto;
+    text-align: center;
+}
+
+.bot-system p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #329900;
+}
+
+.btn_cancle_saveReport {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.btn_cancle_saveReport .cancle {
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+    background: #C4C4C4;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.btn_cancle_saveReport .cancle:hover {
+    background: #F24236;
+}
+
+.btn_cancle_saveReport .saveReport {
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+    background: #4C5BD4;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.btn_submit {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.btn_submit .cancle {
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+    background: #C4C4C4;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.btn_submit .cancle:hover {
+    background: #F24236;
+}
+
+.btn_submit .save {
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+    background: #4C5BD4;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+    border: none;
+}
+
+@media only screen and (max-width:768px) {
+    .textarea-why {
+        width: 72%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    #report #wrap-report {
+        border-radius: 10px;
+        max-width: 375px;
+        margin: 0px auto;
+        padding: 15px;
+        background: #FFFFFF;
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 27%;
+    }
+    select {
+        width: 165px;
+        margin: 0;
+    }
+    #report #wrap-report .content-report .choose-why-report label {
+        width: 123px;
+    }
+    .name-text-why {
+        width: 20%;
+    }
+    .name-text-why p,
+    #report #wrap-report .content-report .choose-why-report label {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 14px;
+        justify-content: start;
+    }
+    #report #wrap-report .title-report p {
+        font-size: 16px;
+        line-height: 25.5px;
+    }
+    .name-text-why p {
+        width: fit-content;
+    }
+    .textarea-why {
+        width: 78%;
+    }
+    .text-why .textarea-why textarea {
+        padding: 7px;
+        font-size: 13px;
+        line-height: 25.55px;
+    }
+    .btn_cancle_saveReport .saveReport,
+    .btn_cancle_saveReport .cancle {
+        font-size: 14px;
+        line-height: 20.85px;
+    }
+    .bot-system p {
+        font-size: 13px;
+        line-height: 14px;
+    }
+}

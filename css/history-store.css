@@ -1,0 +1,705 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    padding: 0% 85px;
+    margin-top: 4%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.body .wrap-search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5%;
+    flex-wrap: wrap;
+}
+
+.body .title-p {
+    margin-bottom: 30px;
+}
+
+.body .title-p p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 26px;
+    /* identical to box height, or 73% */
+    color: #2F2F2F;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 87%;
+    align-items: center;
+}
+
+.wrap-search .title {
+    margin-top: 1px;
+}
+
+.search .ngay_bd,
+.search .status,
+.search .year,
+.search .ngay_kt {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.search .ngay_bd span,
+.search .status span,
+.search .year span,
+.search .ngay_kt span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    text-align: justify;
+    color: #2F2F2F;
+    margin-top: -4px;
+    margin-right: 10px;
+}
+
+.search .ngay_bd input,
+.search .status input,
+.search .year input,
+.search .ngay_kt input {
+    background: #F3F3F3;
+    border-radius: 5px;
+    border: none;
+    /* margin-top: -5px; */
+    /* margin-left: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    /* line-height: 16px; */
+    padding-left: 10px;
+    color: #666666;
+}
+
+input[type="date"] {
+    position: relative;
+    background: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: transparent;
+    /* background: url(/img/drop-down.svg) no-repeat; */
+    background: url(/img/drop-down.svg) no-repeat;
+    z-index: 1;
+    background-position: 0px 5px;
+}
+
+input[type="status"]::-webkit-calendar-picker-indicator {
+    color: transparent;
+    /* background: url(/img/drop-down.svg) no-repeat; */
+    background: url(/img/drop-down.svg) no-repeat;
+    z-index: 1;
+    background-position: 0px 5px;
+}
+
+.search select {
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 0px 6px 0px 10px;
+    border: none;
+    background: #F3F3F3;
+    border-radius: 5px;
+    border: none;
+    /* margin-left: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+    width: 129px;
+}
+
+.icon-search {
+    height: 18px;
+    width: 19%;
+    /* background: url(/img/search-status.png) no-repeat; */
+    background: url(/img/search-status.png) no-repeat;
+    background-position: center;
+}
+
+.img-select-drop-down {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+}
+
+button.filter {
+    width: 118px;
+    background: #4C5BD4;
+    border-radius: 5px;
+    padding: 2px 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.filter img {}
+
+button.filter .name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+    padding-right: 10px;
+}
+
+.body .table-reciever {
+    width: 100%;
+}
+
+.body .table-reciever table {
+    width: 100%;
+}
+
+.body .table-reciever table th {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 159% */
+    text-transform: uppercase;
+    color: #2F2F2F;
+    text-align: left;
+    padding: 10px 0px;
+}
+
+.body .table-reciever table td {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.25px;
+    color: #2F2F2F;
+    text-align: left;
+    padding: 10px 0px;
+}
+
+.body .table-reciever table td .done-feedback {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 159% */
+    text-decoration-line: underline;
+    color: #4C5BD4;
+    cursor: pointer;
+}
+
+
+/* 
+.body .table-reciever table td>span.text-cancle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #F24236;
+    cursor: pointer;
+} */
+
+.body .table-reciever table td .td-see-detail {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 159% */
+    text-decoration-line: underline;
+    color: #4C5BD4;
+    cursor: pointer;
+}
+
+.body .table-reciever table .option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.body .table-reciever table .option button {
+    border: none;
+}
+
+.body .table-reciever table .option button.active {
+    background: #EC5569;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.body .table-reciever table .option button.no_active {
+    background: #F1F1F1;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.body .table-reciever table .option button:hover {
+    background: #EC5569;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.body .table-reciever table .option button img {
+    width: 25px;
+    height: 25px;
+}
+
+.body .add-address {
+    text-align: right;
+    padding: 10px 45px;
+}
+
+.body .add-address a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.25px;
+    text-decoration-line: underline;
+    color: #0067C3;
+}
+
+th {
+    border-bottom: 1px solid #dddddd;
+}
+
+.d-none {
+    display: none;
+}
+
+.pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.pagination .size {
+    display: flex;
+    flex-direction: row;
+}
+
+.pagination .size img {
+    width: 24px;
+    object-fit: fill !important;
+    margin: 0px 12px;
+}
+
+.pagination .size button {
+    padding: 4px 11px;
+    margin: 0px 5px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.t_paginate_active {
+    background: #FFAE28;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.note p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 159% */
+    color: #F24236;
+    text-align: center;
+    /* display: none; */
+}
+
+.text-danger {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 159% */
+    color: #F24236;
+    display: none;
+}
+
+.detail-order .btn_verify {
+    width: 100%;
+}
+
+.body .table-reciever table td .processing {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFAE28;
+    cursor: pointer;
+}
+
+.body .table-reciever table td .delivery {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4C5BD4;
+    cursor: pointer;
+}
+
+.body .table-reciever table td .text-destroy {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #EC5569;
+    cursor: pointer;
+}
+
+.body .table-reciever table td .done {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #329900;
+    cursor: pointer;
+}
+
+@media only screen and (min-width:1520px) {
+    .body {
+        padding: 0% 10.55%;
+    }
+    .box-left {
+        width: 24%;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .body {
+        padding: 0% 60px;
+        margin-top: 103px;
+    }
+    .box-left {
+        display: none;
+    }
+    .box-right {
+        width: 100%;
+        margin: 0;
+    }
+    tr>td:nth-child(1),
+    tr>th:nth-child(1) {
+        display: none;
+    }
+    .search {
+        width: 93%;
+    }
+    td>span.td-dia-diem-none {
+        display: block;
+    }
+    td>span.td-dia-diem-block {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .body {
+        padding: 0% 32px;
+        margin-top: 103px;
+    }
+    .box-left {
+        display: none;
+    }
+    .box-right {
+        width: 100%;
+        margin: 0;
+    }
+    tr>td:nth-child(4),
+    tr>td:nth-child(3),
+    tr>th:nth-child(4),
+    tr>th:nth-child(3) {
+        display: none;
+    }
+    .search {
+        width: 93%;
+    }
+    td>span.td-dia-diem-none {
+        display: block;
+    }
+    td>span.td-dia-diem-block {
+        display: none;
+    }
+    .status {
+        width: 100%;
+    }
+    .search .status {
+        justify-content: center;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    .img-select-drop-down {
+        position: absolute;
+        top: 1px;
+        right: 35%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .body {
+        padding: 0% 32px;
+        margin-top: 103px;
+    }
+    .body .title-p p {
+        text-align: left;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 25.5px;
+    }
+    .box-left {
+        display: none;
+    }
+    .box-right {
+        width: 100%;
+        margin: 0;
+    }
+    .body .table-reciever table tr>td:nth-child(1),
+    .body .table-reciever table tr>td:nth-child(3),
+    .body .table-reciever table tr>td:nth-child(4),
+    .body .table-reciever table tr>td:nth-child(5),
+    .body .table-reciever table tr>td:nth-child(7),
+    .body .table-reciever table tr>th:nth-child(1),
+    .body .table-reciever table tr>th:nth-child(3),
+    .body .table-reciever table tr>th:nth-child(4),
+    .body .table-reciever table tr>th:nth-child(7),
+    .body .table-reciever table tr>th:nth-child(5) {
+        display: none;
+    }
+    .search {
+        width: 100%;
+    }
+    td>span.td-dia-diem-none {
+        display: block;
+    }
+    td>span.td-dia-diem-block {
+        display: none;
+    }
+    .status {
+        width: 100%;
+    }
+    .search .status {
+        justify-content: start;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    .img-select-drop-down {
+        position: absolute;
+        top: 1px;
+        left: 46%;
+    }
+    .body .table-reciever table th {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .button-search {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        margin-top: 10px;
+    }
+    .body .table-reciever table .option button img {
+        width: 15px;
+        height: 15px;
+    }
+    .body .table-reciever table .option button.active {
+        padding: 0px 4px;
+    }
+    .search .ngay_bd span,
+    .search .status span,
+    .search .year span,
+    button.filter .name,
+    .search .ngay_kt span {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .body .table-reciever table td .done,
+    .body .table-reciever table td .text-destroy,
+    .body .table-reciever table td .delivery,
+    .body .table-reciever table td .processing,
+    .search .ngay_bd input,
+    .search .ngay_kt input,
+    .body .table-reciever table td,
+    .body .table-reciever table td.text-destroy,
+    .body .table-reciever table td .td-see-detail,
+    .search select {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .note p {
+        display: none;
+    }
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        display: none;
+        -webkit-appearance: none;
+    }
+    .search .ngay_bd input,
+    .search .status input,
+    .search .year input,
+    .search .ngay_kt input {
+        padding: 0px 8px;
+        width: 55%;
+    }
+    .pagination .size a {
+        padding: 4px 8px;
+        margin: 0px 5px;
+    }
+    .pagination .size img {
+        width: 15px;
+        margin: 0px 5px;
+    }
+    .body .table-reciever table td span,
+    .body .table-reciever table td .done-feedback {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .wrap-search .title {
+        margin-top: 5px;
+        display: flex;
+        align-items: center;
+    }
+    .search .ngay_kt input,
+    .search .ngay_bd input {
+        width: 60%;
+        padding: 5px 5px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .body {
+        padding: 0% 16px;
+        margin-top: 85px;
+    }
+    .body .title-p p {
+        text-align: left;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 25.5px;
+    }
+    .box-left {
+        display: none;
+    }
+    .box-right {
+        width: 100%;
+        margin: 0;
+    }
+    .search {
+        width: 100%;
+    }
+    td>span.td-dia-diem-none {
+        display: block;
+    }
+    td>span.td-dia-diem-block {
+        display: none;
+    }
+    .status {
+        width: 100%;
+    }
+    .search .status {
+        justify-content: start;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    .search .ngay_bd,
+    .search .ngay_kt {
+        width: 50%;
+        justify-content: start;
+    }
+    .img-select-drop-down {
+        position: absolute;
+        top: 7px;
+        right: 35%;
+    }
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        background: none;
+    }
+    input[type="date"] {
+        position: relative;
+        background: none;
+        width: 65%;
+    }
+    .search .ngay_bd span,
+    .search .status span,
+    .search .year span,
+    .search .ngay_kt span {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        width: fit-content;
+    }
+    .search .ngay_bd input,
+    .search .status input,
+    .search .year input,
+    .search .ngay_kt input {
+        padding: 0px 6px;
+        width: 50%;
+    }
+    .body .table-reciever table th {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .search .ngay_bd input,
+    .search .ngay_kt input,
+    .body .table-reciever table td,
+    .body .table-reciever table td.text-destroy,
+    .body .table-reciever table td .td-see-detail,
+    .search select {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        display: none;
+        -webkit-appearance: none;
+    }
+    .pagination .size a {
+        padding: 4px 8px;
+        margin: 0px 5px;
+    }
+    .pagination .size img {
+        width: 15px;
+        margin: 0px 5px;
+    }
+    .img-select-drop-down {
+        left: 52%;
+    }
+    .search .ngay_kt input,
+    .search .ngay_bd input {
+        width: 50%;
+        padding: 5px 5px;
+    }
+    .search .ngay_kt {
+        width: 50%;
+        justify-content: end;
+    }
+}

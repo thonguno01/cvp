@@ -1,0 +1,650 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    padding: 0% 85px;
+    margin-top: 4%
+}
+
+.box-left {
+    width: 20%;
+}
+
+.box-left .wrap-box-left {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 5% 5%;
+}
+
+.box-left .wrap-box-left hr {
+    margin-bottom: 10px;
+}
+
+.box-left .wrap-box-left .active {
+    background: rgba(229, 229, 229, 0.36);
+    border-radius: 10px;
+}
+
+.home,
+.update-user,
+.update-address,
+.store-save {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 5px 10x;
+}
+
+.home .wrap,
+.update-user .wrap,
+.update-address .wrap,
+.store-save .wrap {
+    padding: 5px 10px;
+}
+
+.home .wrap>img,
+.update-user .wrap>img,
+.update-address .wrap>img,
+.store-save .wrap>img {
+    margin-top: -4px;
+}
+
+.home>img,
+.update-user>img,
+.update-address>img,
+.store-save>img {
+    object-fit: fill !important;
+    margin-right: 10px;
+}
+
+.home>a,
+.update-user>a,
+.update-address>a,
+.store-save>a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 159% */
+    color: #666666;
+}
+
+.box-right {
+    width: 76%;
+    margin-left: 50px;
+}
+
+.box-right .title {
+    margin-bottom: 35px;
+}
+
+.box-right .title .main-title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 26px;
+    /* identical to box height, or 73% */
+    color: #2F2F2F;
+    margin-bottom: 15px;
+}
+
+.box-right .title .sub-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 149%;
+    /* identical to box height, or 24px */
+    letter-spacing: 0.25px;
+    color: #2F2F2F;
+}
+
+.box_pro {
+    height: 181px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    padding: 20px 20px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: start;
+}
+
+.box_pro .img_pro {
+    height: 141px;
+    width: 175px;
+    float: left;
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.box_pro .img_pro>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.box_pro .box_pro_right {
+    height: 141px;
+    width: 82%;
+    float: left;
+    position: relative;
+    padding-right: 18%;
+}
+
+.title_pro {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.title_pro h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+    color: #E63950;
+    display: flex;
+    align-items: center;
+}
+
+.action_pro {
+    width: 145px;
+    margin-left: 10px;
+}
+
+.action_pro button {
+    border: none;
+    width: 100%;
+    background: #EC5569;
+    border-radius: 5px;
+    padding: 1px 8px;
+}
+
+.icon_like_pro {
+    width: 21px;
+    background: url(../img/like.png) no-repeat;
+    background-position: right;
+    height: 27px;
+    float: left;
+}
+
+.text_like_pro {
+    color: white;
+    padding-top: 2px;
+}
+
+.icon_add {
+    background: url(../img/add_icon.png) no-repeat;
+    height: 21px;
+    width: 3%;
+    float: left;
+    background-position: left;
+}
+
+.text_add span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.star {
+    display: flex;
+    height: 25px;
+    margin: 10px 0px;
+}
+
+.ac_star {
+    width: 90px;
+    padding-top: 2px;
+    margin-right: 7px;
+}
+
+.one {
+    background: url(../img/star.png) no-repeat;
+    float: left;
+    width: 20%;
+    height: 21px;
+    background-position: left;
+    background-size: 12px 12px;
+}
+
+.count_star {
+    text-align: center;
+    /* width: 8%; */
+    background: #FFAE28;
+    border-radius: 10px;
+    color: white;
+    padding: 3px 8px 0px 8px;
+}
+
+.note span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.open {
+    display: flex;
+    margin: 10px 0px;
+    align-items: center;
+}
+
+.status {
+    float: left;
+    width: 64px;
+}
+
+.time {
+    width: 105px;
+    margin-left: 10px;
+}
+
+.icon_st {
+    background: url(../img/status_open.png) no-repeat;
+    height: 20px;
+    background-position: left;
+    width: 10px;
+    float: left;
+}
+
+.status span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #329900;
+    padding-left: 6px;
+}
+
+.icon_time {
+    background: url(../img/clock.png) no-repeat;
+    height: 20px;
+    background-position: left;
+    float: left;
+    width: 16%;
+}
+
+.time span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.voucher {
+    display: flex;
+    width: 175px;
+}
+
+.icon_vc {
+    background: url(../img/ticket.png) no-repeat;
+    background-position: left;
+    height: 15px;
+    width: 10%;
+    float: left;
+}
+
+.voucher span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.map span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+span.color_map {
+    color: #E63950;
+    font-weight: 500;
+}
+
+.coutiniu {
+    background: #FFAE28;
+    border-radius: 15px;
+    width: 69px;
+    height: 69px;
+    position: absolute;
+    right: 0;
+    top: 25%;
+}
+
+.coutiniu button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: url(../img/icon_buttom.png) no-repeat;
+    background-position: center;
+}
+
+.like_store {
+    background: #EC5569;
+    border-radius: 15px;
+    width: 69px;
+    height: 69px;
+    position: absolute;
+    right: 89px;
+    top: 25%;
+}
+
+.like_store button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: url(../img/heart-add-white.svg) no-repeat;
+    background-position: center;
+}
+
+.pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.pagination .size {
+    display: flex;
+    flex-direction: row;
+}
+
+.pagination .size img {
+    width: 24px;
+    object-fit: fill !important;
+    margin: 0px 12px;
+}
+
+.pagination .size button {
+    padding: 4px 11px;
+    margin: 0px 5px;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.t_paginate_active {
+    background: #FFAE28;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+@media only screen and (min-width:1520px) {
+    .header,
+    .body {
+        padding: 0% 10.55%;
+    }
+    .box-left {
+        width: 24%;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .body {
+        padding: 0% 75px;
+        margin-top: 105px;
+    }
+    .box-left {
+        display: none;
+    }
+    .box-right {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .body {
+        padding: 0% 32px;
+        margin-top: 105px;
+    }
+    .text_like_pro,
+    .voucher,
+    .note span {
+        display: none;
+    }
+    .title_pro h2 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .action_pro button {
+        width: fit-content;
+    }
+    .title_pro {
+        display: flex;
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: start;
+    }
+    .action_pro {
+        width: fit-content;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    .drop-down {
+        right: 32px;
+        top: 87px;
+    }
+    .box_pro .box_pro_right {
+        padding-right: 24%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .body {
+        padding: 0% 24px;
+        margin-top: 85px;
+    }
+    .box_pro {
+        height: unset;
+        width: 100%;
+        padding: 8px 8px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+    }
+    .box-right .title .sub-title {
+        font-size: 14px;
+        line-height: 149%;
+    }
+    .box-right .title {
+        margin-bottom: 30px;
+    }
+    .coutiniu,
+    .text_like_pro,
+    .star,
+    .action_pro,
+    .note span {
+        display: none;
+    }
+    .title_pro h2 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .title_pro {
+        display: flex;
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: start;
+    }
+    .box_pro .img_pro {
+        height: 100%;
+        width: 136px;
+    }
+    .icon_add {
+        width: 15px;
+    }
+    .like_store {
+        border-radius: 5px;
+        width: 37px;
+        height: 37px;
+        position: absolute;
+        right: 0px;
+        top: 59%;
+    }
+    .like_store button {
+        background-size: 25px 25px;
+    }
+    .open {
+        flex-wrap: wrap;
+        margin: 2px 0px;
+    }
+    .voucher {
+        display: block;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .status span,
+    .time span,
+    .map span,
+    .text_add span,
+    .voucher span {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .icon_vc {
+        height: 16px;
+        width: 16px;
+        float: left;
+    }
+    .box_pro .box_pro_right {
+        height: 100%;
+        width: 79%;
+        float: left;
+        position: relative;
+        padding: 0;
+    }
+    .pagination .size a {
+        padding: 4px 8px;
+        margin: 0px 5px;
+    }
+    .pagination .size img {
+        width: 15px;
+        margin: 0px 5px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .body {
+        padding: 0% 16px;
+        margin-top: 85px;
+    }
+    .box_pro {
+        height: unset;
+        width: 100%;
+        padding: 8px 8px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+    }
+    .box-right .title .sub-title {
+        font-size: 14px;
+        line-height: 149%;
+    }
+    .box-right .title {
+        margin-bottom: 30px;
+    }
+    .coutiniu,
+    .text_like_pro,
+    .star,
+    .action_pro,
+    .note span {
+        display: none;
+    }
+    .title_pro h2 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .title_pro {
+        display: flex;
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: start;
+    }
+    .box_pro .img_pro {
+        width: 80px;
+        height: 80px;
+    }
+    .icon_add {
+        width: 15px;
+    }
+    .like_store {
+        border-radius: 5px;
+        width: 37px;
+        height: 37px;
+        position: absolute;
+        right: 0px;
+        top: 59%;
+    }
+    .like_store button {
+        background-size: 25px 25px;
+    }
+    .open {
+        flex-wrap: wrap;
+        margin: 2px 0px;
+    }
+    .voucher {
+        display: block;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .status span,
+    .time span,
+    .map span,
+    .text_add span,
+    .voucher span {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .icon_vc {
+        height: 16px;
+        width: 16px;
+        float: left;
+    }
+    .box_pro .box_pro_right {
+        height: 100%;
+        width: 70%;
+        float: left;
+        position: relative;
+    }
+    .pagination .size a {
+        padding: 4px 8px;
+        margin: 0px 5px;
+    }
+    .pagination .size img {
+        width: 15px;
+        margin: 0px 5px;
+    }
+    .pagnate-avtive {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}

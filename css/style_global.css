@@ -1,0 +1,15 @@
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.pl10 {
+    padding-left: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,427 @@
+.tutorial {
+    width: 100%;
+    padding: 0% 11%;
+}
+
+.tu_title h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    color: #4C5BD4;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.tu_content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video {
+    width: 54%;
+    padding: 0px 1%;
+}
+
+.question {
+    width: 46%;
+    height: 450px;
+}
+
+.chtg button {
+    width: 100%;
+    height: 47px;
+    background: none;
+    border-radius: 10px;
+    border: 2px solid #4C5BD4;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    color: #4C5BD4;
+    margin-bottom: 11px;
+}
+
+.question .title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFAE28;
+    margin-bottom: 15px;
+}
+
+.question .input {
+    width: 49%;
+    height: 46px;
+    background: rgba(229, 229, 229, 0.41);
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+.question .input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666666;
+}
+
+.question .input_2 {
+    width: 99%;
+    height: 161px;
+    background: rgba(229, 229, 229, 0.41);
+    border-radius: 8px;
+    border: none;
+    padding: 10px 17px;
+    margin-bottom: 15px;
+}
+
+.question .input_2::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #666666;
+}
+
+input.input_cap {
+    padding-left: 15px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    width: 158px;
+    height: 42px;
+    float: left;
+}
+
+input.input_cap::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #C4C4C4;
+}
+
+.question .captcha {
+    width: 158px;
+    height: 42px;
+    float: left;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    margin-left: 20px;
+}
+
+.captcha span {
+    font-family: 'Flavors';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 38px;
+    letter-spacing: 9.5px;
+    text-decoration-line: line-through;
+    color: #329900;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-left: 17px;
+}
+
+.load {
+    float: left;
+    width: 10%;
+    height: 41px;
+}
+
+.load button {
+    width: 100%;
+    height: 100%;
+    background: url(../img/load_cap.png) no-repeat;
+    background-position: center;
+    border: none;
+}
+
+.send_mail_div {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+
+button.send_mail {
+    width: 30%;
+    height: 40px;
+    background: none;
+    border: 2px solid #FD9902;
+    border-radius: 900em;
+    display: flex;
+    padding-top: 6px;
+}
+
+.send_mail .text {
+    float: left;
+    width: 75%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FD9902;
+    padding-left: 5%;
+}
+
+.send_mail .icon {
+    height: 26px;
+    width: 20%;
+    float: left;
+    background: url(../img/send_mail.png) no-repeat;
+    background-position: left;
+}
+
+.dish_host {
+    height: auto;
+    width: 100%;
+    padding: 0% 11%;
+}
+
+.title_dish {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.title_dish h2 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 149%;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    color: #FFAE28;
+}
+
+.column_all {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column1 {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    border-radius: 25px;
+    width: 66%;
+    height: 1250px;
+    padding: 15px;
+}
+
+.banner_dish {
+    width: 100%;
+    height: 40%;
+}
+
+.banner_b {
+    border-radius: 10px;
+    width: 100%;
+    background: url(../img/dish_hot_banner.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 90%;
+}
+
+.chu_thich {
+    text-align: center;
+}
+
+.chu_thich span {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+}
+
+.content_dish {
+    overflow: auto;
+    height: 717px;
+}
+
+.content_dish span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: justify;
+    color: #000000;
+}
+
+.column2 {
+    width: 31%;
+    margin-left: 3%;
+}
+
+.category {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    width: 100%;
+    height: 631px;
+    padding: 10px 16px;
+}
+
+.title_cate h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.content_cate {
+    overflow: auto;
+    height: 558px;
+}
+
+.icon_cate {
+    float: left;
+    height: 24px;
+    width: 18px;
+    background: url(../img/cate_show.png) no-repeat;
+    background-position: center;
+}
+
+.text_cate {
+    width: 100%;
+}
+
+.cate_1 {
+    height: 30px;
+    width: 100%;
+    border-bottom: 1px solid #F1F1F1;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1367px) {
+    .tutorial {
+        padding: 0% 7%;
+    }
+    .dish_host {
+        padding: 0% 7%;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .tutorial {
+        padding: 0% 4%;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .tu_content {
+        display: unset;
+    }
+    .video {
+        width: 100%;
+        height: 354px;
+        padding: 0;
+        margin-bottom: 15px;
+    }
+    .question {
+        width: 100%;
+        height: 450px;
+    }
+    .send_mail_div {
+        width: 100%;
+        float: none;
+        margin-top: 0;
+    }
+    button.send_mail {
+        width: 21%;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .tu_title h2 {
+        font-size: 16px;
+        height: 32px;
+    }
+    .question .title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .question .input {
+        width: 100%;
+        height: 30px;
+    }
+    .question .input::placeholder {
+        font-size: 14px;
+    }
+    .question .input_2 {
+        width: 100%;
+        height: 100px;
+    }
+    .question .input_2::placeholder {
+        font-size: 14px;
+    }
+    input.input_cap {
+        padding-left: 6px;
+        width: 100px;
+        height: 30px;
+    }
+    input.input_cap::placeholder {
+        font-size: 10px;
+    }
+    .question .captcha {
+        width: 110px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    .captcha span {
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 6.5px;
+        padding-left: 6px;
+    }
+    .load button {
+        height: 73%;
+    }
+    .send_mail_div {
+        width: 100%;
+        float: left;
+        margin-top: 0px;
+    }
+    button.send_mail {
+        width: 100%;
+    }
+    .send_mail .text {
+        width: 53%;
+        font-size: 14px;
+        padding-left: 33%;
+    }
+    .send_mail .icon {
+        background-size: 16%;
+        height: 25px;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .send_mail .text {
+        width: 55%;
+    }
+}

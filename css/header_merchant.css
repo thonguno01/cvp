@@ -1,0 +1,330 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Roboto;
+    font-weight: 400;
+}
+.taskbar {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    padding: 0% 7%;
+}
+.dropdown{
+    display: none;
+}
+.logo {
+    width: 216px;
+    background: url(../img/Logo_CVP.png) no-repeat;
+    background-position: center;
+    background-size: 187px;
+}
+.select_district {
+    width: 6%;
+    display: flex; 
+    margin-right: 19%;
+}
+.select_district select {
+    width: 100%;
+    border: none;
+    background: bisque;
+    border-radius: 10px;
+}
+.huong_dan {
+    width: 8%;
+    display: flex;
+    padding: 25px 0px;
+    justify-content: center;
+}
+.tin_tuc {
+    width: 8%;
+    display: flex;
+    padding: 25px 0px;
+    justify-content: center;
+}
+.register {
+    width: 8%;
+    display: flex;
+    padding: 25px 0px;
+    justify-content: center;
+}
+.login {
+    width: 10%;
+    display: flex;
+    margin: 25px 0px;
+    justify-content: center;
+    background: #FFAE28;
+    border-radius: 10px;
+    margin-right: 16px;
+}
+.icon_login {
+    width: 19%;
+    background: url(../img/icon_login.png) no-repeat;
+    background-position: 0px center;
+}
+.taskbar a {
+    padding-top: 5px;
+}
+.register a {
+    text-decoration-line: underline;
+}
+.login .text{
+    padding-top: 5px;
+}
+.text a{
+    padding-top: 5px;
+    color: white;
+}
+.merchant1 {
+    width: 11%;
+    display: flex; 
+    margin: 25px 0px;
+    justify-content: center;
+    background: #FBAD2B;
+    border-radius: 10px;
+    margin-right: 22%;
+}
+.icon_merchant1 {
+    width: 18%;
+    background: url(../img/shopping-cart.png) no-repeat;
+    background-position: 0px center;
+}
+.merchant1 .text{
+    padding-top: 5px;
+}
+.danh_muc {
+    width: 12%;
+    display: flex;
+    padding: 25px 0px;
+    justify-content: center;
+}
+.icon_drop {
+    width: 16px;
+    height: 36px;
+    background: url(../img/drop_danhmuc.png)no-repeat;
+    background-position: right;
+}
+.drop_danhmuc {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    width: 271px;
+    height: 152px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    margin-top: 2%;
+    padding: 8px;
+}
+.danh_muc:hover .drop_danhmuc {
+    display: block;
+}
+.drop_danhmuc .all {
+    width: 100%;
+    height: 29px;
+    display: flex;
+    margin-bottom: 2%;
+}
+.drop_danhmuc .all:hover {
+    background: rgba(229, 229, 229, 0.36);
+    border-radius: 10px;
+}
+.icon_home {
+    width: 15%;
+    background: url(../img/home-2_drop.png) no-repeat;
+    background-position: center;
+}
+.icon_news {
+    width: 15%;
+    background: url(../img/24-support.png) no-repeat;
+    background-position: center;
+}
+.icon_cn {
+    width: 15%;
+    background: url(../img/note-2.png) no-repeat;
+    background-position: center;
+}
+.icon_ques {
+    width: 15%;
+    background: url(../img/message-question.png) no-repeat;
+    background-position: center;
+}
+.text_home, .text_news, .text_cn, .text_ques {
+    display: flex;
+    align-items: center;
+}
+@media only screen and (min-width: 1520px){
+    .taskbar {
+        padding: 0% 11%;
+    }
+}
+@media only screen and (max-width: 1025px){
+    .dropdown{
+        display: block;
+    }
+    .taskbar {
+        padding: 0% 4%;
+        justify-content: space-between;
+    }
+    .merchant1, .danh_muc, .huong_dan, .tin_tuc, .register{
+        display: none;
+    }
+    .login {
+        width: 14%;
+    }
+    .will_none{
+        display: none;
+    }
+    .dropdown {
+        width: 6%;
+        background: url(../img/drop_menu.png) no-repeat;
+        background-position: center;
+    }
+    .dropdown:hover .body_drop{
+        display: block;
+    }
+    .body_drop {
+        display: none;
+        z-index: 9;
+        position: absolute;
+        width: 100%;
+        height: auto;
+        margin-left: -4%;
+        background: rgba(0,0,0,0.5);
+        margin-top: 8%;
+    }
+    .all_dr {
+        height: 35px;
+        display: flex;
+        align-items: center;
+    }
+    .drop_off {
+        width: 100%;
+        height: 85px;
+        padding: 60px 54px;
+    }
+    .drop_off button {
+        width: 30px;
+        height: 30px;
+        background: url(../img/off_menu.png) no-repeat;
+        background-position: center;
+        border: none;
+    }
+    .content_drop {
+        width: 100%;
+        padding: 20px;
+        background: #ffffff;
+    }
+    .merchant_drop {
+        background: #EB5757;
+        border-radius: 10px;
+        height: 41px;
+        display: flex;
+        justify-content: center;
+    }
+    .icon_merchant_drop {
+        width: 2%;
+        background: url(../img/icon_merchant.png) no-repeat;
+        background-position: 0px center;
+    }
+    .merchant_drop .text {
+        display: flex;
+        align-items: center;
+    }
+    .merchant_drop .text a{
+        padding: 0;
+    }
+    .login_drop {
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+        height: 60px;
+        border-bottom: 1px solid #C4C4C4;
+    }
+    .danh_muc_drop:hover .drop_danhmuc2{
+        display: block;
+    }
+    .danh_muc_drop:hover .icon_drop_dm{
+        width: 98%;
+        height: 50px;
+        background: url(../img/icon_drop_up.png)no-repeat;
+        background-position: right;
+    }
+    .drop_danhmuc2 {
+        display: none;
+        width: 97%;
+        height: auto;
+        margin-left: 3%;
+        border-left: 2px solid #F1F1F1;
+        padding-left: 22px;
+    }
+    .danh_muc_drop {
+        width: 100%;
+        height: auto;
+    }
+    .tit_dm_dr {
+        padding-left: 15px;
+        height: 50px;
+        float: left;
+        width: 96%;
+        display: flex;
+        align-items: center;
+    }
+    .icon_drop_dm {
+        width: 98%;
+        height: 50px;
+        background: url(../img/icon_drop_down.png)no-repeat;
+        background-position: right;
+    }
+    .thac_mac {
+        padding-left: 15px;
+        height: 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .lien_he {
+        padding-left: 15px;
+        height: 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 769px){
+    .login {
+        width: 20%;
+    }
+    .body_drop {
+        margin-top: 11%;
+    }
+    .icon_merchant_drop {
+        width: 3%;
+    }
+}
+@media only screen and (max-width: 481px){
+    .login {
+        display: none;
+    }
+    .will_none{
+        display: block;
+    }
+    .body_drop {
+        margin-top: 17%;
+    }
+    .icon_merchant_drop {
+        width: 4%;
+    }
+}
+@media only screen and (max-width: 376px){
+    .dropdown {
+        width: 11%;
+    }
+    .body_drop {
+        margin-top: 21%;
+    }
+    .icon_merchant_drop {
+        width: 5%;
+    }
+}
